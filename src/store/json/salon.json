@@ -1,0 +1,2467 @@
+{
+  "_id": "579744a1de33b483327942be",
+  "updatedAt": "2016-10-10T13:00:18.812Z",
+  "createdAt": "2016-07-26T11:08:17.534Z",
+  "name": "Zyloon Salon",
+  "username": "admin.zyloon",
+  "password": "U2FsdGVkX1+nnW/oscwC+mKBi2Sdx5oLFPqG4NBnroM=",
+  "nickname": "Zyloon",
+  "__v": 0,
+  "address": {
+    "address1": "",
+    "address2": "",
+    "street": "",
+    "landmark": "",
+    "locality": {
+      "_id": "5763e2be3aa552251dab76ac",
+      "name": "Powai",
+      "__v": 0,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.9050809,
+          19.1196773
+        ]
+      }
+    },
+    "state": "Maharashtra",
+    "city": "Mumbai"
+  },
+  "walletParams": {
+    "memberDiscount": 20,
+    "membershipFee": 300,
+    "upperLimit": 30,
+    "amountReceiver": 300,
+    "amountReferrer": 300
+  },
+  "businessHours": {
+    "start": "10:00",
+    "end": "20:00",
+    "close": []
+  },
+  "mobile": 8348521244,
+  "catersTo": "U",
+  "displayName": "Zyloon",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      73.03,
+      18.987372
+    ]
+  },
+  "devices": [
+    {
+      "userAuth": "dIpVYatE-TPQUoKtNKmGPQ==",
+      "userPublicKey": "BL9txIiC6M7pnax_RVGOi_jh0zuLl9S9uDcahLUfuJxqRg5ud6NGye8MKLGruie1QRn3ODGoCjH_huB22U0OBY8=",
+      "token": "https://android.googleapis.com/gcm/send/fIIEli_Xhjw:APA91bG4xp_sRbQXoyuzPBxRp2DNi4z3zdY3UrRczZiEE-NgC05DWnSMlAJ6EEEgYhB9Pki-oDxI-b20ybHdHqqY4x1zVntr1bNoCuiuvhyDG09N-qBTREmriaqMOyUUnwRDj9saqBr7",
+      "notifier": "web",
+      "os": "android",
+      "device": "phone"
+    },
+    {
+      "userAuth": "d8Se_1xt-wpzVHukJ7sMpw==",
+      "userPublicKey": "BE81cEld9OfokQRMGwh7omGFHFtK-MTUyOpNrOL6Q4jeAIOA7jofpjZ5MuS618oLnf2FxdQdgw49W1sKG5iQSJs=",
+      "token": "https://android.googleapis.com/gcm/send/eWxpCmexJSk:APA91bHUnMKA_eoO02nlYbNY70PXHBfLFiZWXIVf73545rrQl1ucuHyyGwV714UnabiDBdhM5rgOEgbxfdR5E-STa0E1i4c4FWPvNLVK-JyxygdlAcZVY_OE1YdNhz7Qy_8cYUDtjRY5",
+      "notifier": "web",
+      "os": "other",
+      "device": "desktop"
+    },
+    {
+      "userAuth": "NRrPSL21rOcDLOS7c6fXiw==",
+      "userPublicKey": "BElWZomkHsi_8Wu3oHYvqR5goOJKqF2voLboJEBjpfJum8m2JXIfnEa9dGe3BrfMFJ1CislulkkYkCsmj73caM4=",
+      "token": "https://android.googleapis.com/gcm/send/fmOKO6QTVA0:APA91bFok1yWjKX2jAxhsadbhp7UZ-MxWaBXoybtCnllfog7Em0z8CXnOI1N56IQbFCq_RJTE8ml9cphviJ6DI_v_UGvTSKiBgrw3EhBRWGrbmbhTAMbSMezjYwfU5Ecf2qZaz9TynEY",
+      "notifier": "web",
+      "os": "android",
+      "device": "phone"
+    },
+    {
+      "userAuth": "L-H4jBz7wRUaRi_fKvz8_w==",
+      "userPublicKey": "BK83lSjoAJj__KqWku42BvQt9qYH8y9pN3UHUtdFE7KtXSRKbyfRD-rh6SZgWRzqsjVKoRc0bp7eOzNCzypWB2c=",
+      "token": "https://android.googleapis.com/gcm/send/d2dMlE0yyf8:APA91bHyJQjGZZU9FUdoV5-CVxihVoW7heVZdDLXhUWjG7UWedUgw50vqn3Dx0wfrbCP7mJed1GUKJBDR2-aMwysHGxzo_K533lqh9jUkUDxewlNQFAVecejzK4IzzieQv7daJJb6ZRV",
+      "notifier": "web",
+      "os": "other",
+      "device": "desktop"
+    }
+  ],
+  "services": [
+    {
+      "_id": "57e565334ddc5250516068d2",
+      "subGroup": "Face",
+      "name": "Gold",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 300,
+      "price": {
+        "M": null,
+        "F": 300
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068d3",
+      "subGroup": "Full Arms",
+      "name": "Gold",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068d4",
+      "subGroup": "Full Back",
+      "name": "Gold",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 500,
+      "price": {
+        "M": null,
+        "F": 500
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068d5",
+      "subGroup": "Full Body",
+      "name": "Gold",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 2300,
+      "price": {
+        "M": null,
+        "F": 2300
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068d6",
+      "subGroup": "Half Back",
+      "name": "Gold",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 300,
+      "price": {
+        "M": null,
+        "F": 300
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068d7",
+      "subGroup": "Half Front",
+      "name": "Gold",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 300,
+      "price": {
+        "M": null,
+        "F": 300
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068d8",
+      "subGroup": "Half Legs",
+      "name": "Gold",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068d9",
+      "subGroup": "Face",
+      "name": "Herbal",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068da",
+      "subGroup": "Full Back",
+      "name": "Herbal",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068db",
+      "subGroup": "Full Body",
+      "name": "Herbal",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 2000,
+      "price": {
+        "M": null,
+        "F": 2000
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068dc",
+      "subGroup": "Half Arms",
+      "name": "Herbal",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068dd",
+      "subGroup": "Half Back",
+      "name": "Herbal",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068de",
+      "subGroup": "Half Front",
+      "name": "Herbal",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068df",
+      "subGroup": "Half Legs",
+      "name": "Herbal",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e0",
+      "subGroup": "Face",
+      "name": "Oxy",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e1",
+      "subGroup": "Full Arms",
+      "name": "Oxy",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e2",
+      "subGroup": "Full Back",
+      "name": "Oxy",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e3",
+      "subGroup": "Full Body",
+      "name": "Oxy",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 2500,
+      "price": {
+        "M": null,
+        "F": 2500
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e4",
+      "subGroup": "Full Legs",
+      "name": "Oxy",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 500,
+      "price": {
+        "M": null,
+        "F": 500
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e5",
+      "subGroup": "Half Back",
+      "name": "Oxy",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e6",
+      "subGroup": "Half Front",
+      "name": "Oxy",
+      "category": "Bleach",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e7",
+      "subGroup": null,
+      "name": "Fruit",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e8",
+      "subGroup": null,
+      "name": "Whitening and Brightening",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068e9",
+      "subGroup": null,
+      "name": "Acne",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068ea",
+      "subGroup": null,
+      "name": "Aha",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068eb",
+      "subGroup": null,
+      "name": "Hydrading",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 300,
+      "price": {
+        "M": null,
+        "F": 300
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068ec",
+      "subGroup": null,
+      "name": "Spa",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 500,
+      "price": {
+        "M": null,
+        "F": 500
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068ed",
+      "subGroup": null,
+      "name": "Chocolate",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068ee",
+      "subGroup": null,
+      "name": "Clear Fine",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068ef",
+      "subGroup": null,
+      "name": "Face Pack",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 100,
+      "price": {
+        "M": null,
+        "F": 100
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f0",
+      "subGroup": null,
+      "name": "Whitening Pack",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 300,
+      "price": {
+        "M": null,
+        "F": 300
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f1",
+      "subGroup": null,
+      "name": "Black Pack",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f2",
+      "subGroup": null,
+      "name": "Fruit Pack",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f3",
+      "subGroup": null,
+      "name": "Rejuvenating Pack",
+      "category": "Clean Up",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f4",
+      "subGroup": "Black Mask",
+      "name": "Micro Derma Abrasion",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 650,
+      "price": {
+        "M": null,
+        "F": 650
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f5",
+      "subGroup": "Black Pack",
+      "name": "Micro Derma Abrasion",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f6",
+      "subGroup": "Fruit Pack",
+      "name": "Micro Derma Abrasion",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f7",
+      "subGroup": "Rejuvenating Pack",
+      "name": "Micro Derma Abrasion",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f8",
+      "subGroup": "Whitening Pack",
+      "name": "Micro Derma Abrasion",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 300,
+      "price": {
+        "M": null,
+        "F": 300
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068f9",
+      "subGroup": null,
+      "name": "Fruit",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068fa",
+      "subGroup": null,
+      "name": "Aha",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 750,
+      "price": {
+        "M": null,
+        "F": 750
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068fb",
+      "subGroup": null,
+      "name": "Rejuvenating",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 950,
+      "price": {
+        "M": null,
+        "F": 950
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068fc",
+      "subGroup": null,
+      "name": "Rose Milk",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 700,
+      "price": {
+        "M": null,
+        "F": 700
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068fd",
+      "subGroup": null,
+      "name": "Panchamruth",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 750,
+      "price": {
+        "M": null,
+        "F": 750
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068fe",
+      "subGroup": null,
+      "name": "Whitening",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 700,
+      "price": {
+        "M": null,
+        "F": 700
+      }
+    },
+    {
+      "_id": "57e565334ddc5250516068ff",
+      "subGroup": null,
+      "name": "Collegine",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 750,
+      "price": {
+        "M": null,
+        "F": 750
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606900",
+      "subGroup": null,
+      "name": "Oxy",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 700,
+      "price": {
+        "M": null,
+        "F": 700
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606901",
+      "subGroup": null,
+      "name": "Young And Glow",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 1000,
+      "price": {
+        "M": null,
+        "F": 1000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606902",
+      "subGroup": null,
+      "name": "O2C2",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 900,
+      "price": {
+        "M": null,
+        "F": 900
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606903",
+      "subGroup": null,
+      "name": "Liftin",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 750,
+      "price": {
+        "M": null,
+        "F": 750
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606904",
+      "subGroup": null,
+      "name": "Tejaswini",
+      "category": "Facial",
+      "roleId": "Beautician",
+      "duration": 75,
+      "M": null,
+      "F": 1050,
+      "price": {
+        "M": null,
+        "F": 1050
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606905",
+      "subGroup": "Up to shoulder",
+      "name": "Global Color",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 80,
+      "M": null,
+      "F": 2000,
+      "price": {
+        "M": null,
+        "F": 2000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606906",
+      "subGroup": "Below Shoulder",
+      "name": "Global Color",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 90,
+      "M": null,
+      "F": 3500,
+      "price": {
+        "M": null,
+        "F": 3500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606907",
+      "subGroup": "Up to waist",
+      "name": "Global Color",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 100,
+      "M": null,
+      "F": 5000,
+      "price": {
+        "M": null,
+        "F": 5000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606908",
+      "subGroup": "Up to shoulder",
+      "name": "Global Highlights",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 80,
+      "M": null,
+      "F": 2500,
+      "price": {
+        "M": null,
+        "F": 2500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606909",
+      "subGroup": "Below Shoulder",
+      "name": "Global Highlights",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 90,
+      "M": null,
+      "F": 4000,
+      "price": {
+        "M": null,
+        "F": 4000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160690a",
+      "subGroup": "Up to waist",
+      "name": "Global Highlights",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 100,
+      "M": null,
+      "F": 6000,
+      "price": {
+        "M": null,
+        "F": 6000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160690b",
+      "subGroup": "Up to shoulder",
+      "name": "Renew",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 80,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160690c",
+      "subGroup": "Below Shoulder",
+      "name": "Renew",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 90,
+      "M": null,
+      "F": 750,
+      "price": {
+        "M": null,
+        "F": 750
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160690d",
+      "subGroup": "Up to waist",
+      "name": "Renew",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 100,
+      "M": null,
+      "F": 1000,
+      "price": {
+        "M": null,
+        "F": 1000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160690e",
+      "subGroup": "Up to shoulder",
+      "name": "Power Dose",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 80,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160690f",
+      "subGroup": "Below Shoulder",
+      "name": "Power Dose",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 90,
+      "M": null,
+      "F": 750,
+      "price": {
+        "M": null,
+        "F": 750
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606910",
+      "subGroup": "Up to waist",
+      "name": "Power Dose",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 100,
+      "M": null,
+      "F": 1000,
+      "price": {
+        "M": null,
+        "F": 1000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606911",
+      "subGroup": null,
+      "name": "Root Touchup with Ammonia",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 60,
+      "M": null,
+      "F": 900,
+      "price": {
+        "M": null,
+        "F": 900
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606912",
+      "subGroup": null,
+      "name": "Root Touchup without Ammonia",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 60,
+      "M": null,
+      "F": 1100,
+      "price": {
+        "M": null,
+        "F": 1100
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606913",
+      "subGroup": "Per Streak",
+      "name": "Highlights",
+      "category": "Hair Color",
+      "roleId": "Hair Stylist",
+      "duration": 60,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606914",
+      "subGroup": null,
+      "name": "Basic",
+      "category": "Hair Cut",
+      "roleId": "Hair Stylist",
+      "duration": 15,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606915",
+      "subGroup": null,
+      "name": "Kids",
+      "category": "Hair Cut",
+      "roleId": "Hair Stylist",
+      "duration": 15,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606916",
+      "subGroup": "Up to shoulder",
+      "name": "Regular",
+      "category": "Hair Spa",
+      "roleId": "Hair Stylist",
+      "duration": 55,
+      "M": null,
+      "F": 600,
+      "price": {
+        "M": null,
+        "F": 600
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606917",
+      "subGroup": "Below shoulder",
+      "name": "Regular",
+      "category": "Hair Spa",
+      "roleId": "Hair Stylist",
+      "duration": 60,
+      "M": null,
+      "F": 850,
+      "price": {
+        "M": null,
+        "F": 850
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606918",
+      "subGroup": "Up to waist",
+      "name": "Regular",
+      "category": "Hair Spa",
+      "roleId": "Hair Stylist",
+      "duration": 65,
+      "M": null,
+      "F": 1100,
+      "price": {
+        "M": null,
+        "F": 1100
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606919",
+      "subGroup": "Below shoulder",
+      "name": "Tongs",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 40,
+      "M": null,
+      "F": 850,
+      "price": {
+        "M": null,
+        "F": 850
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160691a",
+      "subGroup": "Up to shoulder",
+      "name": "Tongs",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 45,
+      "M": null,
+      "F": 650,
+      "price": {
+        "M": null,
+        "F": 650
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160691b",
+      "subGroup": "Up to waist",
+      "name": "Tongs",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 50,
+      "M": null,
+      "F": 1100,
+      "price": {
+        "M": null,
+        "F": 1100
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160691c",
+      "subGroup": "Below shoulder",
+      "name": "Ironing",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 20,
+      "M": null,
+      "F": 800,
+      "price": {
+        "M": null,
+        "F": 800
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160691d",
+      "subGroup": "Up to shoulder",
+      "name": "Ironing",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 25,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160691e",
+      "subGroup": "Up to waist",
+      "name": "Ironing",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 30,
+      "M": null,
+      "F": 1000,
+      "price": {
+        "M": null,
+        "F": 1000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160691f",
+      "subGroup": "Below shoulder",
+      "name": "Blow Dry",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 20,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606920",
+      "subGroup": "Up to shoulder",
+      "name": "Blow Dry",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 25,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606921",
+      "subGroup": "Up to waist",
+      "name": "Blow Dry",
+      "category": "Hair Styling",
+      "roleId": "Hair Stylist",
+      "duration": 30,
+      "M": null,
+      "F": 650,
+      "price": {
+        "M": null,
+        "F": 650
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606922",
+      "subGroup": null,
+      "name": "Herbal",
+      "category": "Head Massage",
+      "roleId": "Hair Stylist",
+      "duration": 20,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606923",
+      "subGroup": null,
+      "name": "Aroma",
+      "category": "Head Massage",
+      "roleId": "Hair Stylist",
+      "duration": 20,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606924",
+      "subGroup": null,
+      "name": "Coconut Oil",
+      "category": "Head Massage",
+      "roleId": "Hair Stylist",
+      "duration": 20,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606925",
+      "subGroup": "Up to shoulder",
+      "name": "Relaxing",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 180,
+      "M": null,
+      "F": 4000,
+      "price": {
+        "M": null,
+        "F": 4000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606926",
+      "subGroup": "Below shoulder",
+      "name": "Relaxing",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 240,
+      "M": null,
+      "F": 6500,
+      "price": {
+        "M": null,
+        "F": 6500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606927",
+      "subGroup": "Up to waist",
+      "name": "Relaxing",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 8500,
+      "price": {
+        "M": null,
+        "F": 8500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606928",
+      "subGroup": "Up to shoulder",
+      "name": "Smoothening",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 180,
+      "M": null,
+      "F": 4000,
+      "price": {
+        "M": null,
+        "F": 4000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606929",
+      "subGroup": "Below shoulder",
+      "name": "Smoothening",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 240,
+      "M": null,
+      "F": 6500,
+      "price": {
+        "M": null,
+        "F": 6500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160692a",
+      "subGroup": "Up to waist",
+      "name": "Smoothening",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 8500,
+      "price": {
+        "M": null,
+        "F": 8500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160692b",
+      "subGroup": "Up to shoulder",
+      "name": "Rebonding",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 180,
+      "M": null,
+      "F": 4000,
+      "price": {
+        "M": null,
+        "F": 4000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160692c",
+      "subGroup": "Below shoulder",
+      "name": "Rebonding",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 240,
+      "M": null,
+      "F": 6500,
+      "price": {
+        "M": null,
+        "F": 6500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160692d",
+      "subGroup": "Up to waist",
+      "name": "Rebonding",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 8500,
+      "price": {
+        "M": null,
+        "F": 8500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160692e",
+      "subGroup": "Up to shoulder",
+      "name": "Perming",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 180,
+      "M": null,
+      "F": 4000,
+      "price": {
+        "M": null,
+        "F": 4000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160692f",
+      "subGroup": "Below shoulder",
+      "name": "Perming",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 240,
+      "M": null,
+      "F": 6000,
+      "price": {
+        "M": null,
+        "F": 6000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606930",
+      "subGroup": "Up to waist",
+      "name": "Perming",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 8000,
+      "price": {
+        "M": null,
+        "F": 8000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606931",
+      "subGroup": "Up to shoulder",
+      "name": "Keratin",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 140,
+      "M": null,
+      "F": 5000,
+      "price": {
+        "M": null,
+        "F": 5000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606932",
+      "subGroup": "Below shoulder",
+      "name": "Keratin",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 180,
+      "M": null,
+      "F": 6500,
+      "price": {
+        "M": null,
+        "F": 6500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606933",
+      "subGroup": "Up to waist",
+      "name": "Keratin",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 220,
+      "M": null,
+      "F": 8000,
+      "price": {
+        "M": null,
+        "F": 8000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606934",
+      "subGroup": "Bikini",
+      "name": "Hair Remover Permanent",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 25000,
+      "price": {
+        "M": null,
+        "F": 25000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606935",
+      "subGroup": "Chin",
+      "name": "Hair Remover Permanent",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 5000,
+      "price": {
+        "M": null,
+        "F": 5000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606936",
+      "subGroup": "Full hands",
+      "name": "Hair Remover Permanent",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 20000,
+      "price": {
+        "M": null,
+        "F": 20000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606937",
+      "subGroup": "Side locks",
+      "name": "Hair Remover Permanent",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 7000,
+      "price": {
+        "M": null,
+        "F": 7000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606938",
+      "subGroup": "Underarms",
+      "name": "Hair Remover Permanent",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 9000,
+      "price": {
+        "M": null,
+        "F": 9000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606939",
+      "subGroup": "Upper Lips",
+      "name": "Hair Remover Permanent",
+      "category": "Hair Treatments",
+      "roleId": "Hair Stylist",
+      "duration": 300,
+      "M": null,
+      "F": 5000,
+      "price": {
+        "M": null,
+        "F": 5000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160693a",
+      "subGroup": null,
+      "name": "Express Manicure",
+      "category": "Manicure",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160693b",
+      "subGroup": null,
+      "name": "Basic manicure",
+      "category": "Manicure",
+      "roleId": "Beautician",
+      "duration": 40,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160693c",
+      "subGroup": null,
+      "name": "French Manicure",
+      "category": "Manicure",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 500,
+      "price": {
+        "M": null,
+        "F": 500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160693d",
+      "subGroup": null,
+      "name": "Spa",
+      "category": "Manicure",
+      "roleId": "Beautician",
+      "duration": 60,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160693e",
+      "subGroup": null,
+      "name": "Aroma Manicure",
+      "category": "Manicure",
+      "roleId": "Beautician",
+      "duration": 50,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160693f",
+      "subGroup": null,
+      "name": "Chocolate manicure",
+      "category": "Manicure",
+      "roleId": "Beautician",
+      "duration": 50,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606940",
+      "subGroup": null,
+      "name": "Body Massage With Oil",
+      "category": "Body massage",
+      "roleId": "Beautician",
+      "duration": 40,
+      "M": null,
+      "F": 1000,
+      "price": {
+        "M": null,
+        "F": 1000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606941",
+      "subGroup": null,
+      "name": "Body Massage With Aroma",
+      "category": "Body massage",
+      "roleId": "Beautician",
+      "duration": 50,
+      "M": null,
+      "F": 1500,
+      "price": {
+        "M": null,
+        "F": 1500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606942",
+      "subGroup": null,
+      "name": "Body Massage With Oil Cream",
+      "category": "Body massage",
+      "roleId": "Beautician",
+      "duration": 50,
+      "M": null,
+      "F": 2000,
+      "price": {
+        "M": null,
+        "F": 2000
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606943",
+      "subGroup": null,
+      "name": "Body Massage With Full Body Pack",
+      "category": "Body massage",
+      "roleId": "Beautician",
+      "duration": 50,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606944",
+      "subGroup": null,
+      "name": "Foot Massage",
+      "category": "Body massage",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606945",
+      "subGroup": null,
+      "name": "Back Massage",
+      "category": "Body massage",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606946",
+      "subGroup": null,
+      "name": "Foot Reflexology",
+      "category": "Body massage",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606947",
+      "subGroup": "Chocolate",
+      "name": "Body Polishing",
+      "category": "Beautician",
+      "roleId": "Others",
+      "duration": 60,
+      "M": null,
+      "F": 2500,
+      "price": {
+        "M": null,
+        "F": 2500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606948",
+      "subGroup": "Herbal",
+      "name": "Body Polishing",
+      "category": "Beautician",
+      "roleId": "Others",
+      "duration": 60,
+      "M": null,
+      "F": 2200,
+      "price": {
+        "M": null,
+        "F": 2200
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606949",
+      "subGroup": "Whitening",
+      "name": "Body Polishing",
+      "category": "Beautician",
+      "roleId": "Others",
+      "duration": 60,
+      "M": null,
+      "F": 3500,
+      "price": {
+        "M": null,
+        "F": 3500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160694a",
+      "subGroup": null,
+      "name": "Body Scrub",
+      "category": "Beautician",
+      "roleId": "Others",
+      "duration": 60,
+      "M": null,
+      "F": 1000,
+      "price": {
+        "M": null,
+        "F": 1000
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160694b",
+      "subGroup": null,
+      "name": "Body Scrub And Pack",
+      "category": "Beautician",
+      "roleId": "Others",
+      "duration": 60,
+      "M": null,
+      "F": 1750,
+      "price": {
+        "M": null,
+        "F": 1750
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160694c",
+      "subGroup": null,
+      "name": "Expresso Pedicure",
+      "category": "Pedicure",
+      "roleId": "Beautician",
+      "duration": 35,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160694d",
+      "subGroup": null,
+      "name": "Normal Pedicure",
+      "category": "Pedicure",
+      "roleId": "Beautician",
+      "duration": 45,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160694e",
+      "subGroup": null,
+      "name": "Chocolate Pedicure",
+      "category": "Pedicure",
+      "roleId": "Beautician",
+      "duration": 55,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160694f",
+      "subGroup": null,
+      "name": "Aroma Pedicure",
+      "category": "Pedicure",
+      "roleId": "Beautician",
+      "duration": 65,
+      "M": null,
+      "F": 500,
+      "price": {
+        "M": null,
+        "F": 500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606950",
+      "subGroup": null,
+      "name": "French Pedicure",
+      "category": "Pedicure",
+      "roleId": "Beautician",
+      "duration": 55,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606951",
+      "subGroup": null,
+      "name": "Spa Pedcure",
+      "category": "Pedicure",
+      "roleId": "Beautician",
+      "duration": 55,
+      "M": null,
+      "F": 600,
+      "price": {
+        "M": null,
+        "F": 600
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606952",
+      "subGroup": "Eyebrows",
+      "name": "Regular",
+      "category": "Threading",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 30,
+      "price": {
+        "M": null,
+        "F": 30
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606953",
+      "subGroup": "Upper Lips",
+      "name": "Regular",
+      "category": "Threading",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 20,
+      "price": {
+        "M": null,
+        "F": 20
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606954",
+      "subGroup": "Forehead",
+      "name": "Regular",
+      "category": "Threading",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 20,
+      "price": {
+        "M": null,
+        "F": 20
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606955",
+      "subGroup": "Chin",
+      "name": "Regular",
+      "category": "Threading",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 20,
+      "price": {
+        "M": null,
+        "F": 20
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606956",
+      "subGroup": "Side Locks",
+      "name": "Regular",
+      "category": "Threading",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 50,
+      "price": {
+        "M": null,
+        "F": 50
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606957",
+      "subGroup": "Full Face",
+      "name": "Regular",
+      "category": "Threading",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 100,
+      "price": {
+        "M": null,
+        "F": 100
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606958",
+      "subGroup": "Bikini",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 45,
+      "M": null,
+      "F": 900,
+      "price": {
+        "M": null,
+        "F": 900
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606959",
+      "subGroup": "Chin",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 100,
+      "price": {
+        "M": null,
+        "F": 100
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160695a",
+      "subGroup": "Full Arms",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 500,
+      "price": {
+        "M": null,
+        "F": 500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160695b",
+      "subGroup": "Full Back",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 50,
+      "M": null,
+      "F": 600,
+      "price": {
+        "M": null,
+        "F": 600
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160695c",
+      "subGroup": "Full body",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 140,
+      "M": null,
+      "F": 2500,
+      "price": {
+        "M": null,
+        "F": 2500
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160695d",
+      "subGroup": "Full face",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 300,
+      "price": {
+        "M": null,
+        "F": 300
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160695e",
+      "subGroup": "Full Legs",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 45,
+      "M": null,
+      "F": 600,
+      "price": {
+        "M": null,
+        "F": 600
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160695f",
+      "subGroup": "Half Arms",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606960",
+      "subGroup": "Half front",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 500,
+      "price": {
+        "M": null,
+        "F": 500
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606961",
+      "subGroup": "Half Legs",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 450,
+      "price": {
+        "M": null,
+        "F": 450
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606962",
+      "subGroup": "Side Locks",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 150,
+      "price": {
+        "M": null,
+        "F": 150
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606963",
+      "subGroup": "Underarms",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 150,
+      "price": {
+        "M": null,
+        "F": 150
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606964",
+      "subGroup": "Forehead",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 100,
+      "price": {
+        "M": null,
+        "F": 100
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606965",
+      "subGroup": "Upper Lips",
+      "name": "Chocolate",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 100,
+      "price": {
+        "M": null,
+        "F": 100
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606966",
+      "subGroup": "Bikini",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 45,
+      "M": null,
+      "F": 550,
+      "price": {
+        "M": null,
+        "F": 550
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606967",
+      "subGroup": "Chin",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 50,
+      "price": {
+        "M": null,
+        "F": 50
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606968",
+      "subGroup": "Full Arms",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606969",
+      "subGroup": "Full Back",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 50,
+      "M": null,
+      "F": 400,
+      "price": {
+        "M": null,
+        "F": 400
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160696a",
+      "subGroup": "Full body",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 140,
+      "M": null,
+      "F": 1300,
+      "price": {
+        "M": null,
+        "F": 1300
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160696b",
+      "subGroup": "Full face",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 25,
+      "M": null,
+      "F": 200,
+      "price": {
+        "M": null,
+        "F": 200
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160696c",
+      "subGroup": "Full Legs",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 45,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160696d",
+      "subGroup": "Half Arms",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 20,
+      "M": null,
+      "F": 175,
+      "price": {
+        "M": null,
+        "F": 175
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160696e",
+      "subGroup": "Half front",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 350,
+      "price": {
+        "M": null,
+        "F": 350
+      }
+    },
+    {
+      "_id": "57e565334ddc52505160696f",
+      "subGroup": "Half Legs",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 30,
+      "M": null,
+      "F": 250,
+      "price": {
+        "M": null,
+        "F": 250
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606970",
+      "subGroup": "Side Locks",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 90,
+      "price": {
+        "M": null,
+        "F": 90
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606971",
+      "subGroup": "Underarms",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 70,
+      "price": {
+        "M": null,
+        "F": 70
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606972",
+      "subGroup": "Forehead",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 50,
+      "price": {
+        "M": null,
+        "F": 50
+      }
+    },
+    {
+      "_id": "57e565334ddc525051606973",
+      "subGroup": "Upper Lips",
+      "name": "Normal",
+      "category": "Waxing",
+      "roleId": "Beautician",
+      "duration": 15,
+      "M": null,
+      "F": 50,
+      "price": {
+        "M": null,
+        "F": 50
+      }
+    }
+  ],
+  "staff": [
+    {
+      "_id": "57b80b71f712e5f748f46d85",
+      "roleId": "Beautician",
+      "serviceType": "U",
+      "gender": "M",
+      "experience": 500,
+      "name": "Abhishek",
+      "__v": 0,
+      "workingHours": {
+        "start": "09:00",
+        "end": "20:00",
+        "close": [
+          7
+        ]
+      },
+      "tempRole": [
+        "stylist"
+      ],
+      "role": [
+        "stylist"
+      ]
+    },
+    {
+      "_id": "57b80b42f712e5f748f46d84",
+      "name": "Sharans",
+      "roleId": "Beautician",
+      "serviceType": "U",
+      "gender": "M",
+      "experience": 120,
+      "__v": 0,
+      "workingHours": {
+        "start": "08:00",
+        "end": "20:00",
+        "close": [
+          3
+        ]
+      },
+      "tempRole": [
+        "stylist"
+      ],
+      "role": [
+        "stylist"
+      ]
+    },
+    {
+      "_id": "57b80b89f712e5f748f46d86",
+      "roleId": "Hair Stylist",
+      "serviceType": "F",
+      "gender": "M",
+      "experience": 120,
+      "name": "Vipul",
+      "__v": 0,
+      "workingHours": {
+        "start": "10:00",
+        "end": "13:00",
+        "close": [
+          1
+        ]
+      },
+      "tempRole": [
+        "stylist"
+      ],
+      "role": [
+        "stylist"
+      ]
+    }
+  ],
+  "active": false,
+  "brands": [],
+  "amenities": [],
+  "categories": [
+    "Threading",
+    "Waxing",
+    "Hair Cut",
+    "Hair Styling",
+    "Hair Color",
+    "Hair Spa",
+    "Bleach",
+    "Facial",
+    "Clean Up",
+    "Manicure",
+    "Pedicure",
+    "Hair Treatments",
+    "Body massage",
+    "Head Massage",
+    "Beautician"
+  ],
+  "images": [
+    {
+      "_id": "57a4a444ba8afb9a414c59ac",
+      "path": "https://s3.ap-south-1.amazonaws.com/images.zyloon.com/salons/579744a1de33b483327942be/1b82d809-c981-4ac0-816b-ffaea9ad0f06.png",
+      "live": true
+    },
+    {
+      "_id": "57a4a444ba8afb9a414c59ab",
+      "path": "https://s3.ap-south-1.amazonaws.com/images.zyloon.com/salons/579744a1de33b483327942be/b69669a3-227c-415f-967d-aef09515dc17.png",
+      "live": false
+    }
+  ],
+  "tabs": [
+    "wallet",
+    "appointment",
+    "member",
+    "income-expense",
+    "refer",
+    "users"
+  ],
+  "currency": "INR",
+  "timezone": 5.5,
+  "businessType": "Beauty Salon"
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "_id": "57e565d74ddc525051606974",
+    "updatedAt": "2016-10-07T14:46:17.085Z",
+    "createdAt": "2016-09-23T17:26:47.157Z",
+    "cost": 30,
+    "userGender": "F",
+    "userName": "Ansuman Shah",
+    "userMobile": "8904590415",
+    "business": {
+      "mobile": 8348521244,
+      "name": "Zyloon Salon",
+      "_id": "579744a1de33b483327942be"
+    },
+    "user": {
+      "_id": "579cb9574aebbadf6707cfc0",
+      "updatedAt": "2016-09-23T17:37:15.106Z",
+      "createdAt": "2016-07-30T14:27:35.917Z",
+      "mobile": "8904590415",
+      "name": "Ansuman Shah",
+      "salon": "57714e26ba3f438844d2e64b",
+      "__v": 0,
+      "url": {
+        "profile": {
+          "url": "https://goo.gl/unUxM3",
+          "date": "2016-09-23T17:37:15.106Z"
+        },
+        "register": {
+          "url": "https://goo.gl/mOyR0d",
+          "date": "2016-09-16T10:06:45.353Z"
+        }
+      },
+      "business": "57714e26ba3f438844d2e64b",
+      "logins": 0,
+      "walletParams": {
+        "code": "84500",
+        "lastService": "2016-09-14T14:30:13.739Z",
+        "receivers": [],
+        "wallet": 0
+      },
+      "mobileVerified": false,
+      "gender": "F"
+    },
+    "promoApplied": false,
+    "events": [
+      {
+        "status": "booked",
+        "timestamp": "2016-09-23T17:26:47.141Z"
+      },
+      {
+        "status": "servicing",
+        "timestamp": "2016-09-23T17:27:33.469Z"
+      },
+      {
+        "status": "completed",
+        "timestamp": "2016-09-23T17:27:38.964Z"
+      }
+    ],
+    "status": "completed",
+    "cartObject": [
+      {
+        "gender": "F",
+        "start": "2016-09-23T06:00:00.000Z",
+        "staff": {
+          "roleId": "Beautician",
+          "name": "Abhishek",
+          "_id": "57b80b71f712e5f748f46d85"
+        },
+        "service": {
+          "duration": 20,
+          "roleId": "Beautician",
+          "price": {
+            "F": 30,
+            "M": null
+          },
+          "category": "Threading",
+          "subGroup": "Eyebrows",
+          "name": "Regular",
+          "_id": "57e565334ddc525051606952"
+        }
+      }
+    ],
+    "__v": 0,
+    "payment": "57e5660c4ddc525051606975",
+    "start": "2016-09-23T06:00:00.000Z",
+    "end": "2016-09-23T06:30:00.000Z"
+  },
+  {
+    "_id": "57e5684b3ec738e65655722d",
+    "updatedAt": "2016-10-07T14:46:17.088Z",
+    "createdAt": "2016-09-23T17:37:15.789Z",
+    "cost": 450,
+    "userGender": "F",
+    "userName": "Ansuman Shah",
+    "userMobile": "8904590415",
+    "business": {
+      "mobile": 8348521244,
+      "name": "Zyloon Salon",
+      "_id": "579744a1de33b483327942be"
+    },
+    "user": {
+      "_id": "579cb9574aebbadf6707cfc0",
+      "updatedAt": "2016-09-23T17:37:15.106Z",
+      "createdAt": "2016-07-30T14:27:35.917Z",
+      "mobile": "8904590415",
+      "name": "Ansuman Shah",
+      "salon": "57714e26ba3f438844d2e64b",
+      "__v": 0,
+      "url": {
+        "profile": {
+          "url": "https://goo.gl/unUxM3",
+          "date": "2016-09-23T17:37:15.106Z"
+        },
+        "register": {
+          "url": "https://goo.gl/mOyR0d",
+          "date": "2016-09-16T10:06:45.353Z"
+        }
+      },
+      "business": "57714e26ba3f438844d2e64b",
+      "logins": 0,
+      "walletParams": {
+        "code": "84500",
+        "lastService": "2016-09-14T14:30:13.739Z",
+        "receivers": [],
+        "wallet": 0
+      },
+      "mobileVerified": false,
+      "gender": "F"
+    },
+    "promoApplied": false,
+    "events": [
+      {
+        "status": "booked",
+        "timestamp": "2016-09-23T17:37:15.773Z"
+      }
+    ],
+    "status": "booked",
+    "cartObject": [
+      {
+        "gender": "F",
+        "start": "2016-09-23T07:00:00.000Z",
+        "staff": {
+          "roleId": "Hair Stylist",
+          "name": "Vipul",
+          "_id": "57b80b89f712e5f748f46d86"
+        },
+        "service": {
+          "duration": 15,
+          "roleId": "Hair Stylist",
+          "price": {
+            "F": 450,
+            "M": null
+          },
+          "category": "Hair Cut",
+          "subGroup": null,
+          "name": "Basic",
+          "_id": "57e565334ddc525051606914"
+        }
+      }
+    ],
+    "__v": 0,
+    "start": "2016-09-23T07:00:00.000Z",
+    "end": "2016-09-23T07:30:00.000Z"
+  },
+  {
+    "_id": "57f60a84b1a723203a583b60",
+    "updatedAt": "2016-10-07T14:46:17.089Z",
+    "createdAt": "2016-10-06T08:25:40.327Z",
+    "cost": 5000,
+    "userGender": "F",
+    "userName": "Sachin Bansal",
+    "userMobile": "9971530964",
+    "business": {
+      "mobile": 8348521244,
+      "name": "Zyloon Salon",
+      "_id": "579744a1de33b483327942be"
+    },
+    "user": {
+      "_id": "57acbdde651835621e4d2861",
+      "updatedAt": "2016-10-10T12:43:32.492Z",
+      "createdAt": "2016-08-11T18:03:10.950Z",
+      "mobile": "9971530964",
+      "name": "Sachin Bansal",
+      "salon": "579744a1de33b483327942be",
+      "__v": 0,
+      "password": null,
+      "gender": "F",
+      "email": "sachin.bansal@zyloon.com",
+      "url": {
+        "profile": {
+          "url": "https://goo.gl/TA9tYN",
+          "date": "2016-10-10T12:43:30.752Z"
+        },
+        "register": {
+          "url": "https://goo.gl/C4Xs1g",
+          "date": "2016-10-01T10:07:15.428Z"
+        }
+      },
+      "business": "579744a1de33b483327942be",
+      "logins": 1,
+      "walletParams": {
+        "code": "99851",
+        "lastService": "2016-09-14T14:34:33.540Z",
+        "membershipNo": "123",
+        "toMember": "2016-09-07T06:55:29.462Z",
+        "receivers": [],
+        "wallet": 0
+      },
+      "mobileVerified": false,
+      "deals": []
+    },
+    "promoApplied": false,
+    "events": [
+      {
+        "status": "servicing",
+        "timestamp": "2016-10-06T08:25:40.317Z"
+      },
+      {
+        "status": "completed",
+        "timestamp": "2016-10-06T10:21:17.545Z"
+      }
+    ],
+    "status": "completed",
+    "cartObject": [
+      {
+        "gender": "F",
+        "start": "2016-10-06T08:00:00.000Z",
+        "staff": {
+          "roleId": "Hair Stylist",
+          "name": "Vipul",
+          "_id": "57b80b89f712e5f748f46d86"
+        },
+        "service": {
+          "duration": 300,
+          "roleId": "Hair Stylist",
+          "price": {
+            "F": 5000,
+            "M": null
+          },
+          "category": "Hair Treatments",
+          "subGroup": "Upper Lips",
+          "name": "Hair Remover Permanent",
+          "_id": "57e565334ddc525051606939"
+        }
+      }
+    ],
+    "deals": [],
+    "__v": 0,
+    "payment": "57f6259eb1a723203a583b61",
+    "start": "2016-10-06T08:00:00.000Z",
+    "end": "2016-10-06T13:00:00.000Z"
+  },
+  {
+    "_id": "57fb8cf40963042b9422eb0a",
+    "updatedAt": "2016-10-10T12:43:32.077Z",
+    "createdAt": "2016-10-10T12:43:32.077Z",
+    "cost": 300,
+    "userGender": "F",
+    "user": {
+      "_id": "57acbdde651835621e4d2861",
+      "updatedAt": "2016-10-10T12:43:32.492Z",
+      "createdAt": "2016-08-11T18:03:10.950Z",
+      "mobile": "9971530964",
+      "name": "Sachin Bansal",
+      "salon": "579744a1de33b483327942be",
+      "__v": 0,
+      "password": null,
+      "gender": "F",
+      "email": "sachin.bansal@zyloon.com",
+      "url": {
+        "profile": {
+          "url": "https://goo.gl/TA9tYN",
+          "date": "2016-10-10T12:43:30.752Z"
+        },
+        "register": {
+          "url": "https://goo.gl/C4Xs1g",
+          "date": "2016-10-01T10:07:15.428Z"
+        }
+      },
+      "business": "579744a1de33b483327942be",
+      "logins": 1,
+      "walletParams": {
+        "code": "99851",
+        "lastService": "2016-09-14T14:34:33.540Z",
+        "membershipNo": "123",
+        "toMember": "2016-09-07T06:55:29.462Z",
+        "receivers": [],
+        "wallet": 0
+      },
+      "mobileVerified": false,
+      "deals": []
+    },
+    "userName": "Sachin Bansal",
+    "userMobile": "9971530964",
+    "business": {
+      "mobile": 8348521244,
+      "name": "Zyloon Salon",
+      "_id": "579744a1de33b483327942be"
+    },
+    "promoApplied": false,
+    "events": [
+      {
+        "status": "servicing",
+        "timestamp": "2016-10-10T12:43:32.065Z"
+      }
+    ],
+    "status": "servicing",
+    "cartObject": [
+      {
+        "service": {
+          "duration": 20,
+          "roleId": "Beautician",
+          "price": {
+            "F": 300,
+            "M": null
+          },
+          "category": "Bleach",
+          "subGroup": "Face",
+          "name": "Gold",
+          "_id": "57e565334ddc5250516068d2"
+        },
+        "gender": "F",
+        "staff": {
+          "roleId": "Beautician",
+          "name": "Abhishek",
+          "_id": "57b80b71f712e5f748f46d85"
+        },
+        "start": "2016-10-10T12:30:00.000Z"
+      }
+    ],
+    "__v": 0,
+    "start": "2016-10-10T12:30:00.000Z",
+    "end": "2016-10-10T13:00:00.000Z"
+  }
+]
