@@ -9,6 +9,7 @@ import { connect } from 'react-redux';
 
 import PersistConfig from './../config/PersistConfig';
 import { actions as rootActions } from './../store/root';
+import Hello from './../components/Hello';
 
 class RootContainer extends React.Component {
   componentDidMount() {
@@ -22,9 +23,7 @@ class RootContainer extends React.Component {
     return (
       <View style={styles.applicationView}>
         <StatusBar barStyle="light-content" />
-        <Text style={styles.welcome}>
-          Hello
-        </Text>
+        <Hello />
       </View>
     );
   }
