@@ -9,7 +9,10 @@ import { connect } from 'react-redux';
 
 import PersistConfig from './../config/PersistConfig';
 import { actions as rootActions } from './../store/root';
-import Hello from './../components/Hello';
+
+import NavigationComponent from './../components/NavigationComponent';
+import DetailedComponent from './../components/DetailedComponent';
+
 
 class RootContainer extends React.Component {
   componentDidMount() {
@@ -22,8 +25,8 @@ class RootContainer extends React.Component {
   render() {
     return (
       <View style={styles.applicationView}>
-        <StatusBar barStyle="light-content" />
-        <Hello />
+        <NavigationComponent />
+        <DetailedComponent />
       </View>
     );
   }
@@ -39,22 +42,7 @@ export default connect(null, mapStateToDispatch)(RootContainer);
 import { Fonts, Metrics, Colors } from '../themes';
 const styles = StyleSheet.create({
   applicationView: {
-    flex: 1
-  },
-  container: {
     flex: 1,
-    justifyContent: 'center',
-    backgroundColor: Colors.background
+    flexDirection: 'row',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    fontFamily: Fonts.base,
-    margin: Metrics.baseMargin
-  },
-  myImage: {
-    width: 200,
-    height: 200,
-    alignSelf: 'center'
-  }
 });
