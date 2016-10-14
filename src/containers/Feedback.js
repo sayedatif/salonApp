@@ -11,10 +11,13 @@ import { connect } from 'react-redux';
 
 import PersistConfig from './../config/PersistConfig';
 import { actions as rootActions } from './../store/root';
+import UserFeedback from './../components/UserFeedback'
+import PaymentComponent from './../components/PaymentComponent'
 
-import Hello from './../components/Hello';
+const { height, width } = Dimensions.get('window');
 
-class RootContainer extends React.Component {
+
+class Feedback extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -33,7 +36,7 @@ class RootContainer extends React.Component {
     return (
       <View style={styles.applicationView}>
         <StatusBar barStyle="light-content" />
-        <Hello />
+          <UserFeedback />
       </View>
     );
   }
@@ -43,13 +46,12 @@ const mapStateToDispatch = (dispatch) => ({
   init: () => dispatch(rootActions.loadInit())
 });
 
-export default connect(null, mapStateToDispatch)(RootContainer);
+export default connect(null, mapStateToDispatch)(Feedback);
 
 // Styles
 import { Fonts, Metrics, Colors } from '../themes';
 const styles = StyleSheet.create({
   applicationView: {
-    flex: 1,
-    flexDirection: 'row',
+    flex: 1
   },
 });
