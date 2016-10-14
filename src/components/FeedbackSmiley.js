@@ -1,7 +1,5 @@
 import React from 'react';
 import { PixelRatio, StyleSheet, Text, View, PanResponder, Animated, TouchableOpacity, Dimensions } from 'react-native';
-const { height, width } = Dimensions.get('window');
-console.log(width);
 
 const REACTIONS = [
   { label: "Terrible", src: require('../assets/worried.png'), bigSrc: require('../assets/worried_big.png') },
@@ -10,7 +8,8 @@ const REACTIONS = [
   { label: "Good", src: require('../assets/smile.png'), bigSrc: require('../assets/smile_big.png') },
   { label: "Great", src: require('../assets/surprised.png'), bigSrc: require('../assets/surprised_big.png') },
 ];
-const WIDTH = 550;
+import { Fonts, Metrics, Colors } from '../themes';
+const WIDTH = Metrics.screenWidth - 200;
 const DISTANCE =  WIDTH / REACTIONS.length;
 const END = WIDTH - DISTANCE;
 
@@ -46,6 +45,18 @@ export default class Feedback extends React.Component {
 
   updatePan(toValue) {
     Animated.spring(this._pan, { toValue, friction: 7 }).start();
+    if(toValue === DISTANCE * 0){
+      console.log('Terrible');
+    } else if (toValue === DISTANCE * 1) {
+      console.log('Bad');
+    } else if (toValue === DISTANCE * 2) {
+      console.log('Okay');
+    } else if (toValue === DISTANCE * 3) {
+      console.log('Good');
+    } else {
+      console.log('Great');
+    }
+
   }
 
   render() {
@@ -53,7 +64,7 @@ export default class Feedback extends React.Component {
       <View style={styles.container}>
         <View style={styles.wrap}>
           <Text style={styles.welcome}>
-            How was the service?
+            Rate our Service
           </Text>
 
           <View style={styles.line} />
@@ -79,7 +90,6 @@ export default class Feedback extends React.Component {
                 topOutputRange = [0, 10];
                 colorOutputRange = ['#999', '#222'];
               }
-
 
               return (
                 <TouchableOpacity onPress={() => this.updatePan(u)} activeOpacity={0.9} key={idx}>
@@ -180,7 +190,7 @@ const styles = StyleSheet.create({
     color: '#777',
     fontWeight: '600',
     fontFamily: 'Avenir',
-    marginBottom: 50,
+    marginBottom: 30,
   },
   reactions: {
     flexDirection: 'row',
