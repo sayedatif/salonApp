@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-
 class CardComponent extends React.Component {
 
   _addService(){
@@ -16,11 +15,12 @@ class CardComponent extends React.Component {
   render() {
     return (
       <View style={styles.cardContainer}>
-        <Text style={styles.displayTime}> 2:00 pm - 3:00 pm </Text>
+        <View style={styles.supportingView}></View>
         <View style={styles.infoContainer}>
           <ServiceDetails />
           <CustomerBox />
         </View>
+        <Text style={styles.displayTime}> 2:00 pm - 3:00 pm </Text>
       </View>
     );
   }
@@ -29,13 +29,17 @@ class ServiceDetails extends React.Component{
   render(){
     return(
       <View style={styles.serviceBox}>
-        <Text style={styles.serviceStylistInfo}> Haircut : Vipul  Rs. 20</Text>
-        <Text style={styles.serviceStylistInfo}> Massage : Anshuman Rs. 50 </Text>
-        <Text style={styles.serviceStylistInfo}> Spa : Sachin Rs. 100 </Text>
-        <TouchableOpacity onPress={() => this._addService()}>
-          <Text style={styles.addService}> Add Services </Text>
-        </TouchableOpacity>
-        <Text style={styles.serviceStylistInfo}> Total Amount : Rs. 170 </Text>
+        <View style={{paddingTop:10, flexDirection:"row"}}>
+          <View>
+            <Text style={styles.serviceStylistInfo}> Haircut : Vipul  Rs. 20</Text>
+            <Text style={styles.serviceStylistInfo}> Massage : Anshuman Rs. 50 </Text>
+            <Text style={styles.serviceStylistInfo}> Spa : Sachin Rs. 100 </Text>
+            <Text style={styles.serviceStylistInfo}> Total Amount : Rs. 170 </Text>
+          </View>
+          <TouchableOpacity onPress={() => this._addService()}>
+            <Text style={styles.addService}> Add Services </Text>
+          </TouchableOpacity>
+        </View>
       </View>
     )
   }
@@ -60,33 +64,34 @@ import { Fonts, Metrics, Colors } from '../themes';
 const styles = StyleSheet.create({
   cardContainer:{
     flex:1,
-    backgroundColor: 'powderblue',
-    margin:20,
+    margin:10,
     overflow: 'visible',
     marginRight:20,
-    padding:5,
+    left:10
   },
   CustomerBox:{
     flex:1,
   },
   displayTime:{
-    backgroundColor:'red',
+    backgroundColor:Colors.bloodOrange,
     position:"absolute",
-    top: -20,
-    left:10,
+    top: 5,
+    left: 20,
     fontSize: 20,
+    borderRadius: 20,
   },
   customerBox:{
-    backgroundColor: "red",
+    // backgroundColor: "red",
     flex:1,
   },
   serviceBox:{
-    backgroundColor:'blue',
+    backgroundColor:'transparent',
     flex:1,
   },
   infoContainer:{
-    backgroundColor:"purple",
+    backgroundColor:Colors.cloud,
     flexDirection: "row",
+    flex:1,
   },
   customerName:{
     fontSize: 20,
@@ -109,9 +114,16 @@ const styles = StyleSheet.create({
   serviceStylistInfo:{
     fontSize:20,
     fontFamily:Fonts.type.base,
+    left:10,
   },
   addService:{
-    fontSize:25,
+    fontSize:22,
     fontFamily:Fonts.type.base,
-  }
+    left:10,
+    // backgroundColor: "green"
+  },
+  supportingView:{
+    height:17,
+    backgroundColor:'#fff',
+  },
 });

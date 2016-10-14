@@ -7,19 +7,57 @@ import {
 
 import Tabs from 'react-native-tabs';
 
+import ListComponent from './ListComponent';
+
 class TabView extends React.Component {
+
+  constructor(props){
+      super(props);
+      let tabContent=[];
+      tabContent.push(
+        <ListComponent name="Bookings" key="bookings" />
+      )
+      this.state={
+        tab: tabContent,
+        tabName : "Bookings"
+      }
+  }
+
+  _renderSelectedTab(el){
+    let selectedTab = el.props.name;
+    console.log("Selected Tab", selectedTab);
+
+    let tabContent=[];
+    switch(selectedTab){
+      case "Bookings":
+        tabContent.push(<ListComponent name="Bookings" key="bookings" />)
+        this.setState({tab:tabContent, tabName:"Bookings"})
+        break;
+
+      case "Customers":
+        tabContent.push(<ListComponent name="Customers" key="customers" />)
+        this.setState({tab:tabContent, tabName:"Customers"})
+        break;
+
+      case "Profile":
+        tabContent.push(<ListComponent name="Profile" key="profile" />)
+        this.setState({tab:tabContent, tabName:"Profile"})
+        break;
+
+    }
+  }
+
   render() {
     return (
       <View style={styles.tabContainer}>
-        <Tabs selected="Bookings"
+        {this.state.tab}
+        <Tabs selected={this.state.tabName}
               style={styles.tabStyle}
               selectedStyle={styles.selectedTabStyle}
-              onSelect={el=>this.setState({page:el.props.name})}>
-
-              <Text name="Bookings">Bookings</Text>
-              <Text name="Customers">Customers</Text>
-              <Text name="Profile">Profile</Text>
-
+              onSelect={(el) => this._renderSelectedTab(el)}>
+              <Text style={styles.individualTabStyle} selectedIconStyle={{borderTopWidth:5,borderTopColor:'red'}} name="Bookings">Bookings</Text>
+              <Text style={styles.individualTabStyle} selectedIconStyle={{borderTopWidth:5,borderTopColor:'red'}} name="Customers">Customers</Text>
+              <Text style={styles.individualTabStyle} selectedIconStyle={{borderTopWidth:5,borderTopColor:'red'}} name="Profile">Profile</Text>
         </Tabs>
       </View>
     );
@@ -32,13 +70,14 @@ export default TabView;
 import { Fonts, Metrics, Colors } from '../themes';
 const styles = StyleSheet.create({
   tabContainer:{
-    flex:1.5,
-    backgroundColor:"pink",
+    flex:10,
+    backgroundColor:Colors.cloud,
   },
   tabStyle:{
-    backgroundColor:"pink",
+    flex:1,
+    backgroundColor:"#fff",
   },
-  selectedTabStyle:{
-
+  individualTabStyle:{
+    fontSize:17
   }
 });

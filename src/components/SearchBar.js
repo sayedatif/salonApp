@@ -31,7 +31,7 @@ export default SearchBox;
 import { Fonts, Metrics, Colors } from '../themes';
 const styles = StyleSheet.create({
   searchContainer:{
-    flex:1.7,
+    flex:0.7,
     backgroundColor:Colors.silver,
   }
 });
