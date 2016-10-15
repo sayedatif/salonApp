@@ -12,6 +12,8 @@ import { connect } from 'react-redux';
 import PersistConfig from './../config/PersistConfig';
 import { actions as rootActions } from './../store/root';
 
+import NavigationComponent from './../components/NavigationComponent';
+import DetailedComponent from './../components/DetailedComponent';
 import Hello from './../components/Hello';
 
 class RootContainer extends React.Component {
@@ -33,7 +35,8 @@ class RootContainer extends React.Component {
     return (
       <View style={styles.applicationView}>
         <StatusBar barStyle="light-content" />
-        <Hello />
+        <NavigationComponent />
+        <DetailedComponent />
       </View>
     );
   }
